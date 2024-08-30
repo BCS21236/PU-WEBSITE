@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Convergence University</title>
+    <link rel="icon" href="Images/pulogo.jpeg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="Images/5e4135b48e24d.jpg" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="blog.html">BLOGS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+
+    <!-- ------------courses------------- -->
+
+    <section class="course">
+      <h1>Course We Offer</h1>
+      <div class="course-intro">
+        <p>
+          Explore our courses and programs designed to nurture your passion for
+          technology and equip you with the skills to shape the future.
+        </p>
+      </div>
+      <div class="row">
+        <div class="course-col">
+          <h3>BS Computer Science</h3>
+          <p>
+            A Bachelor of Science in Computer Science is an undergraduate degree focused on the study of computers and computational systems. This degree typically takes four years to complete and provides students with a strong foundation in both the theoretical and practical aspects of computing.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>BS Information Technology</h3>
+          <p>
+            A Bachelor of Science in Information Technology (BSIT) is an undergraduate degree that focuses on the application of technology in the management and processing of information. The degree typically spans four years and prepares students for careers in the IT industry by providing a mix of technical knowledge, practical skills, and business acumen.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>BS Software Engineering</h3>
+          <p>
+            A Bachelor of Science in Software Engineering (BSSE) is an undergraduate degree that focuses on the systematic design, development, testing, and maintenance of software systems. This program typically lasts four years and equips students with both the theoretical knowledge and practical skills necessary to create high-quality software solutions in various industries.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------facilities---------------- -->
+
+    
+
+    <!-- ----------footer---------------- -->
+
+    <section class="footer">
+      
+      <div class="icons">
+        <a
+          href="https://www.facebook.com/PUGujranwala/"
+          class="fa fa-facebook"
+        ></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a
+          href=""
+          class="fa fa-instagram"
+        ></a>
+       
+      </div>
+      <p>© 2024 University of the Punjab, Gujranwala Campus. All Rights Reserved.</p>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
